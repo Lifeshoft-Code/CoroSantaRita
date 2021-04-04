@@ -1,3 +1,10 @@
+//loader
+window.addEventListener('load', function(){
+    let loaderContainer = document.getElementById('loader');
+    loaderContainer.style.display = 'none';
+})
+
+
 //menu
 let btnMenu = document.getElementById('btn-icon-menu');
 let menuOpen = false;
