@@ -1,0 +1,56 @@
+.toolbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2px;
+}
+
+.main-contain {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 4em;
+}
+
+.main-contain section {
+  width: 80vw;
+  margin: 1em;
+}
+
+.main-contain section article p {
+  text-align: justify;
+  line-height: 1.5pc;
+  letter-spacing: 0.1pc;
+}
+
+.main-contain .line-hr {
+  width: 100%;
+}
+
+.main-contain .voices .voices-container .voices-title {
+  color: var(--color-title);
+}
+
+.main-contain .voices .voices-container .voices-items-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 1em;
+}
+
+.main-contain .voices .voices-container .voices-items-container .voices-items .voices-name-section {
+  color: var(--color-heading);
+  text-shadow: 0 0 1px;
+}
+
+.main-contain .voices .voices-container .voices-items-container .voices-items ol {
+  padding-left: 0.5em;
+}
+
+.main-contain .voices .voices-container .voices-items-container .voices-items ol .voices-item {
+  list-style: none;
+  line-height: 2pc;
+}
+/*# sourceMappingURL=aboutUsStory.css.map */
